@@ -53,10 +53,9 @@
   .menu ol li span:hover {
     cursor: pointer;
   }
-
-  .menu ol li:hover i {
+.menu ol li:hover i {
     color: #9356dc;
-  }
+}
  .menu li:hover {
     border-radius: 15px;
     box-shadow:0 5px 5px  rgba(0,0,0,0.16);
@@ -64,7 +63,6 @@
     cursor:pointer;
     transform:scale(1.02)
  }
-
 .fa-location-dot {
     padding: 1%;
 }
