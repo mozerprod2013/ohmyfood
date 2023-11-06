@@ -1,3 +1,4 @@
+/*Page Principal */
 .title {
     margin-left: 40%;
     padding: 1%;
@@ -5,7 +6,8 @@
 .icon {
     position: absolute;
     height: 8%;
-    width: 98.9%;
+    left: 0%;
+    width: 100%;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #eaeaea;
 }
@@ -106,9 +108,10 @@ button:hover {
 }
 .font {
     padding-top: 5%;
-    width: 100%;
+    margin-left: -1%;
+    width: 101.6%;
     height: 250px;
-    background-color: #F6F6F6;
+    background-color: #F2F2F2;
 }
 h2 {
     font-weight: 700;
@@ -119,11 +122,13 @@ h2 {
 .font1 {
     width: 100%;
     height: 800px;
-    background-color: #f6f6f6;
+    background-color: white;
 }
 a {
     font-family: Arial,sans-serif
-    
+}
+img.test1 {
+    object-fit: cover;
 }
 .test2 {
     margin-left: 55%;
@@ -146,7 +151,7 @@ a {
     position: relative;
     border-radius: 20px;
     padding: 0px;
-    width: 36%;
+    width: 38%;
     margin-left: 7%;
     height: 260px;
     filter: drop-shadow(10px 15px 10px rgba(7, 7, 7, 0.1));
@@ -243,85 +248,419 @@ img.test1 {
     background-color: #99e2d0;
 }
 .space {
-    margin-top: 4%;
+    margin-top: 2%;
 }
 footer {
     display: flex;
     justify-content: center;
-    flex-basis: 100%;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #F2F2F2;
-    padding: 30px 0;
+    padding: 1%;
 }
 .footer1 {
     position: absolute;
     font-family: Arial, Helvetica,sans-serif;
     width: 50%;
+    font-size: 95%;
     padding-top: 0.4%;
-    margin-left: -27%;
+    margin-left: -28%;
+    margin-top: 2%;
     color: white;
 }
 .fa-utensils {
     margin: 1.5%;
 }
+.fa-regular {
+    top: 1px;
+    left: 17%;
+    font-size: 1.6em;
+    cursor: pointer;
+    font-weight: 100;
+  }
+  .fa-regular:hover {
+    -webkit-background-clip: text;
+    font-weight: 900;
+    -webkit-text-fill-color: rgba(147,86,220,1)
+  }
+  .heart {
+    position: inherit;
+    margin-left: 67%;
+    top: 5.3%;
+}
 .footer2 {
     position: absolute;
     font-family: Arial, Helvetica,sans-serif;
-    width: 50%;
-    margin-left: 7%;
-    padding: 0.4%;
+    font-size: 95%;
+    width: 60%;
+    left: 23%;
+    margin-top: 2.3%;
     color: rgb(255, 255, 255);
 }
 .footer3 {
     width: 50%;
-    font-size: 95%;
-    margin-left: 39%;
-    padding: 0.5%;
+    font-size: 90%;
+    margin-left: 36%;
+    margin-top: 2.5%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer4 {
     position: absolute;
-    width: 60%;
-    left: 51%;
-    padding: 0.6%;
+    left: 70%;
+    padding: 2.5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     color: white;
 }
 .footer5 {
     position: absolute;
-    padding: 1%;
-    width: 12%;
-    margin-left: 85%;
+    width: 13%;
+    margin-left: 87%;
     filter:invert();
+    padding-top: 3%;
 }
-footer {
-    max-width: 100%;
-    background-color: #353535;
+footer.space {
+    position: absolute;
+    width: 98%;
+    height: 15.5%;
+    left: 0%;
+    background: #353535;
 }
+button {
+    animation: Momo 2s 1;
+    position: relative;
+    animation-direction: normal;
+    animation-delay: 0s;
+}
+    @keyframes Momo {
+    0%  { padding-top:10%; }
+        
+}
+   
+/* Partie Menu1Desktop*/
 .logo {
-    height: 100%;
+    margin-left: -10%;
     width: 60%;
-}
-.fa-heart.fa-xl {
+ }
+ .title {
+    padding: 2%;
+ }
+ .fa-heart.fa-xl {
     position: absolute;
+    margin-left: 72%;
+    padding-top: 6.6%;
+ }
+ .fa-arrow-up.fa-rotate-270 {
+    position: fixed;
+    margin: 1.5%;
+    top: 4%;
+ }
+ .menu1 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+ }
+ .fontmenu {
+    position: absolute;
+    top: 56%;
+    width: 70%;
+    border-radius: 50px 50px 0px 0px;
+    margin-left: 16%;
+    height: 1400px;
+    background-color: rgba(246,246,246,1);
+ }
+ .textmenu {
+    position: relative;
+    margin-left: 35%;
+    top: 1%;
+    font-size: 180%;
+    font-style:italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .test6 {
+    position: relative;
+    top: -10.5%;
+    margin-left: -250%;
+ }
+ .titremenu {
+    margin-left: -40%;
+    padding-top: 2%;
+ }
+ .titremenu1 {
+    position: absolute;
+    margin-left: 27%;
+    padding-top: 29.5%;
+ } 
+ .titremenu2 {
+    position: absolute;
+    margin-top: 54.3%;
+    margin-left: 26.2%;
+ }
+ .titremenu3 {
+    position: absolute;
+    margin-left: 27%;
+    padding-top: 37%;
+ }
+ .trait {
+    margin-left: 18.7%;
+    width: 5%;
+    margin-top: -1%;
+    height: 0.2%;
+    background-color: rgba(153,226,208,1);
+ }
+ .trait1 {
+    position: absolute;
+    margin-left: 41.5%;
+    width: 80%;
+    margin-top: -20%;
+    height: 0.5%;
+    background-color: rgba(153,226,208,1);
+ }
+ .menuh3 {
+    display: flex;
+    margin-left: 1%;
+ }
+ .menuh3M {
+    display: flex;
+    margin-left: 1%;
+ }
+ .menuh3MM{
+    display: flex;
+    margin-left: 1%;
+ }
+ .menuhM5 {
+    display: flex;
+    margin-left: 1%;
+ }
+ .menuhM6 {
+    display: flex;
+    margin-left: 1%;
+ }
+ .menuhM7{
+    display: flex;
+    margin-left: 1%;
+ }
+ .menup {
+    display: flex;
+    margin-left: 1%;
+    font-weight:200;
+    margin-top: 0%;
+ }
+ .menupM {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupMM{
+    display: flex;
+    margin-left: 1% ;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupMMM {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupM4 {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupM5 {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupM6 {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .menupM7 {
+    display: flex;
+    margin-left: 1%;
+    font-weight: 200;
+    margin-top: 1%;
+ }
+ .p-num {
+    margin-top: -5%;
     margin-left: 90%;
-    padding-top: 6%;
-    color: #090909;
-}
-.fa-solid.fa-heart.fa-xl {
+ }
+ .p-num1 {
     position: absolute;
-    top: 67%;
-    color:#9356dc;
-}
-.cor {
+    width: 50%;
+    margin-left: 42%;
+    top: 70%;
+    height: 5%;
+ 
+    background-color: rgba(153,226,208,1);
+ }
+ .bn-menu {
+    width: 60%;
+    height: 5.5%;
+    margin-left: 18%;
+    margin-top: 1%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ button:hover {
+    border-radius: 20px;
+ }
+ .bn-menu1 {
     position: absolute;
-    margin-left: 90%;
-    top: 20px;
-}
-/* Small devices (phones, less than 768px) */
+    width: 42%;
+    top: 99%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px ;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu2 {
+    position: absolute;
+    width: 42%;
+    top: 113.5%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px ;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu3 {
+    position: absolute;
+    width: 42%;
+    top: 136.5%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu4 {
+    position: absolute;
+    width: 42%;
+    top: 151%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu5 {
+    position: absolute;
+    width: 42%;
+    top: 165.5%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu6 {
+    position: absolute;
+    width: 42%;
+    top: 188%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu7 {
+    position: absolute;
+    width: 42%;
+    top: 202.5%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu8 {
+    position: absolute;
+    width: 42%;
+    top: 217%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu9 {
+    position: absolute;
+    width: 14%;
+    margin-top: 82%;
+    height: 8%;
+    border-radius: 50px;
+    border: white;
+    margin-left: 42%;
+    background: linear-gradient(#9356dc,#ff79da)
+ }
+ .bn-menu10 {
+    position: absolute;
+    width: 42%;
+    top: 128%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu11 {
+    position: absolute;
+    width: 42%;
+    top: 152%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu12 {
+    position: absolute;
+    width: 42%;
+    top: 166%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .bn-menu13 {
+    position: absolute;
+    width: 42%;
+    top: 180%;
+    height: 12%;
+    margin-left: 28.5%;
+    border-radius: 20px;
+    border: white;
+    background-color: white;
+ }
+ .foot-menu {
+    position: absolute;
+    width: 98%;
+    top: 1700px;
+    padding-top: 1%;
+    margin-left: -0.6%;
+    height: 100px;
+    background-color: #353535;
+ }
+ .fotter-bloc {
+    display: inline;
+    margin-bottom: 15px;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 1200px;
+ }
+
+/* Small devices (phones, less than 768px) page Principal */
 @media (max-width: 768px){
 .title {
         margin-left: 25%;
@@ -329,29 +668,34 @@ footer {
     }
 .icon {
         position: absolute;
-        left: -15%;
+        left: -13%;
         height: 8%;
         width: 113%;
         font-family:Arial, Helvetica, sans-serif;
         background-color: #eaeaea;
     }
+    .p-num {
+        display: flex;
+        margin-top: -9%;
+    }
 .font {
-            padding-top: 5%;
-            width: 101%;
-            height: 340px;
-            background-color: #F6F6F6;
+        padding-top: 5%;
+        width: 102.9%;
+        margin-left: -1%;
+        height: 340px;
+        background-color: #F6F6F6;
     }
 h1 {
-            margin-left: 15%;
-            font-size: 30px;
-            width: 70%;
-            padding-top: 14%;
-            text-align: center;
+        margin-left: 15%;
+        font-size: 30px;
+        width: 70%;
+        padding-top: 14%;
+        text-align: center;
         }
 .p2 {
-            margin-left: 4%;
-            font-size: 120%;
-            text-align: center;
+        margin-left: 4%;
+        font-size: 120%;
+        text-align: center;
     }
 .bn {
         width: 50%;
@@ -372,57 +716,222 @@ li {
 .menu-titre {
     position: relative;
     left: -28%;
-    padding: 10%;
+    padding-bottom: 5%;
 }
 div.cards {
     flex-direction: column;
 }
 .card-h-m {
     width: 100%;
-    margin-left: -3%;
+    margin-left: -2.5%;
     margin-top: 6%;
 }
 .logo {
-    margin-left: -350px;
-    width: 110px;
+    position: relative;
+    width: 100px;
+    margin-left: -375px;
 }
 .footer1 {
     position: absolute;
     font-family: Arial, Helvetica,sans-serif;
     width: 100%;
     padding-top: 5%;
-    margin-left: -70%;
+    margin-left: -75%;
     color: white;
 }
 .footer2 {
     position: absolute;
     font-family: Arial, Helvetica,sans-serif;
     width: 100%;
-    margin-left: -68%;
+    margin-left: -60%;
     padding-top: 11%;
     color: rgb(255, 255, 255);
 }
 .footer3 {
     width: 100%;
     font-size: 95%;
-    margin-left: -71%;
-    padding-top: 19%;
+    margin-left: -75%;
+    padding-top: 18%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer4 {
     position: absolute;
+    margin-left: -7%;
     width: 60%;
-    left: -18%;
-    padding-top: 25%;
+    left: -16%;
+    padding-top: 27%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     color: white;
 }
-
-    
-     
-      
-       
+.space {
+    margin-top: 15%;
 }
+footer.space {
+    display: flex;
+    width: 97%;
+    height: 27%;
+    margin-left: 0.5%;
+}
+}
+/* Partie Mobile-menu1 (page2)*/
+@media (max-width: 768px){
+    .textmenu {
+        width: 100%;
+        margin-left: 4%;
+        top: auto;
+        font-weight: 400;
+        font-style: italic;
+    }
+    img.menu1 {
+        width: 96%;
+        margin-left: 1%;
+    }
+    .fa-heart.fa-xl {
+        margin-left: 70%;
+     }
+     .heart {
+        left: 12%;
+        top: 4.5%;
+     }
+    .titremenu {
+        margin-left: -65%;
+    }
+    .titremenu1 {
+        top: 105.5%;
+        margin-left: -1%;
+    }
+    .titremenu2 {
+        top: 139%;
+        margin-left: -4%;
+    }
+    .menuh3M {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menuh3MM {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupMMM {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menuhM5 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menuhM6 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menuhM7 {
+        display: flex;
+        margin-left: 1%;
+    }
+    hr.trait {
+        margin-left: 4%;
+        width: 8%;
+        height: 2px;
+    }
+    hr.trait1{
+        height: 2px;
+        width: 40px;
+    }
+    .fontmenu {
+        width:94%;
+        margin-left: 0.5%;
+    }
+    button.bn-menu {
+        width: 95%;
+        margin-left: 2%;
+    }
+    button.bn-menu1 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu2 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu3 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu4 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu5 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu6 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu7 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    button.bn-menu8 {
+        width: 90%;
+        margin-left: 2%;
+    }
+    .bn-menu9 {
+        margin-top: 80%;
+        
+    }
+    .menuh3 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menup {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupM4 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupM5 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupM6 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupM7 {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupM {
+        display: flex;
+        margin-left: 1%;
+    }
+    .menupMM {
+        display: flex;
+        margin-left: 1%;
+    }
+    .foot-menu {
+        width: 92%;
+        height: 28%;
+        top: 250%;
+        margin-left: 0.5%;
+        background: #353535;
+    }
+    img.logo {
+        left: 70%;
+        
+    }
+    .bn-menu9 {
+        width: 43%;
+        margin-left: 26%;
+        top: 180%;
+    }
+
+}
+
  
