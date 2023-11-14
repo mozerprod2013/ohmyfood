@@ -1,10 +1,51 @@
 /*Page Principal */
+.chargement {
+  position:absolute;
+  top:68%;
+  left:48%;
+  transform:translate(-50%,-50%);
+  width:120px;
+  height:120px;
+  background:transparent;
+  border:3px solid #627965;
+  border-radius:50%;
+  text-align: center;
+  line-height:110px;
+  font-family:sans-serif;
+  font-size:14px;
+  color: #9356dc;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px black;
+  box-shadow:0 0 20px rgba(153,226,208,1);
+}
+.chargement:before {
+  content: "";
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #9356dc;
+  border-right:3px solid #ff79da;
+  border-radius:50%;
+  animation:animation 2s linear infinite;
+}
+@keyframes animation {
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+}
+@keyframes animation{
+  0%{transform:rotate(45deg);}
+  100%{transform:rotate(405deg);}
+}
 .title {
-    margin-left: 40%;
-    padding: 1%;
+    margin-left: 39%;
+    width: 15.5%;
 }
 .icon {
-    position: absolute;
+    position:absolute;
     height: 8%;
     left: 0%;
     width: 100%;
@@ -89,13 +130,14 @@ h1 {
     color: white;
     margin-left: 0%
 }
-.bn {
+.bn-res {
     width: 16%;
     margin-top: 1%;
-    padding: 0%;
+    padding: 0.2%;
     border-radius: 50px;
     border: white;
     margin-left: 40%;
+    animation: none;
     background: linear-gradient(#9356dc,#ff79da)
 }
 button:hover {
@@ -330,13 +372,14 @@ button {
     animation: Momo 2s 1;
     position: relative;
     animation-direction: normal;
-    animation-delay: 0s;
+    animation-delay: 1s;
 }
-    @keyframes Momo {
+
+/* animation */
+@keyframes Momo {
     0%  { padding-top:10%; }
-        
 }
-   
+
 /* Partie Menu1Desktop*/
 .logo {
     margin-left: -10%;
@@ -389,11 +432,11 @@ button {
  .titremenu1 {
     position: absolute;
     margin-left: 27%;
-    padding-top: 29.5%;
+    padding-top: 28.5%;
  } 
  .titremenu2 {
     position: absolute;
-    margin-top: 54.3%;
+    margin-top: 54%;
     margin-left: 26.2%;
  }
  .titremenu3 {
@@ -403,7 +446,7 @@ button {
  }
  .trait {
     margin-left: 18.7%;
-    width: 5%;
+    width: 4%;
     margin-top: -1%;
     height: 0.2%;
     background-color: rgba(153,226,208,1);
@@ -411,7 +454,7 @@ button {
  .trait1 {
     position: absolute;
     margin-left: 41.5%;
-    width: 80%;
+    width: 75%;
     margin-top: -20%;
     height: 0.5%;
     background-color: rgba(153,226,208,1);
@@ -489,16 +532,17 @@ button {
     margin-top: 1%;
  }
  .p-num {
-    margin-top: -5%;
+    position: absolute;
+    top: 50%;
     margin-left: 90%;
+    width: 10%;
  }
  .p-num1 {
     position: absolute;
     width: 50%;
     margin-left: 42%;
-    top: 70%;
-    height: 5%;
- 
+    top: 60%;
+    height: 4%;
     background-color: rgba(153,226,208,1);
  }
  .bn-menu {
@@ -510,6 +554,26 @@ button {
     border: white;
     background-color: white;
  }
+.p-num::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+.p-num:hover::before {
+  transform: scaleX(1);
+}
+.p-num::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  background: rgba(153,226,208,1);
+  width: 100%;
+  height: 100px;
+  margin-top: auto;
+  border-radius: 0px 0px 20px 0px;
+  z-index: -1;
+  top: -60px;
+  transition: transform .5s ease;
+}
  button:hover {
     border-radius: 20px;
  }
@@ -601,6 +665,7 @@ button {
     border-radius: 50px;
     border: white;
     margin-left: 42%;
+    animation: none;
     background: linear-gradient(#9356dc,#ff79da)
  }
  .bn-menu10 {
@@ -663,8 +728,9 @@ button {
 /* Small devices (phones, less than 768px) page Principal */
 @media (max-width: 768px){
 .title {
-        margin-left: 25%;
-        padding: 1%;
+        width: auto;
+        margin-left: 30%;
+        padding: 2%;
     }
 .icon {
         position: absolute;
@@ -674,7 +740,7 @@ button {
         font-family:Arial, Helvetica, sans-serif;
         background-color: #eaeaea;
     }
-    .p-num {
+.p-num {
         display: flex;
         margin-top: -9%;
     }
@@ -685,15 +751,21 @@ button {
         height: 340px;
         background-color: #F6F6F6;
     }
+.bn-res {
+    width: 42%;
+    padding: 0.5%;
+    margin-left: 30%;
+}
 h1 {
-        margin-left: 15%;
+        margin-left: 19%;
         font-size: 30px;
-        width: 70%;
-        padding-top: 14%;
+        width: 60%;
+        padding-top: 10%;
         text-align: center;
-        }
+    }
 .p2 {
-        margin-left: 4%;
+        width: 70%;   
+        margin-left: 15%;
         font-size: 120%;
         text-align: center;
     }
@@ -726,10 +798,9 @@ div.cards {
     margin-left: -2.5%;
     margin-top: 6%;
 }
-.logo {
-    position: relative;
+img.logo {
     width: 100px;
-    margin-left: -375px;
+    left: -25px;
 }
 .footer1 {
     position: absolute;
@@ -770,10 +841,9 @@ div.cards {
 }
 footer.space {
     display: flex;
-    width: 97%;
-    height: 27%;
-    margin-left: 0.5%;
-}
+    width: 95%;
+    height: 31%;
+    margin-left: 1%;
 }
 /* Partie Mobile-menu1 (page2)*/
 @media (max-width: 768px){
@@ -795,15 +865,18 @@ footer.space {
         left: 12%;
         top: 4.5%;
      }
+     .p-num {
+        top: 120%;
+     }
     .titremenu {
         margin-left: -65%;
     }
     .titremenu1 {
-        top: 105.5%;
+        top: 108%;
         margin-left: -1%;
     }
     .titremenu2 {
-        top: 139%;
+        top: 143%;
         margin-left: -4%;
     }
     .menuh3M {
@@ -840,8 +913,9 @@ footer.space {
         width: 40px;
     }
     .fontmenu {
-        width:94%;
+        position: absolute;
         margin-left: 0.5%;
+        width: 95%;
     }
     button.bn-menu {
         width: 95%;
@@ -880,8 +954,7 @@ footer.space {
         margin-left: 2%;
     }
     .bn-menu9 {
-        margin-top: 80%;
-        
+        margin-top: 66%;
     }
     .menuh3 {
         display: flex;
@@ -916,22 +989,20 @@ footer.space {
         margin-left: 1%;
     }
     .foot-menu {
-        width: 92%;
-        height: 28%;
+        width: 93%;
+        height: 30%;
         top: 250%;
         margin-left: 0.5%;
         background: #353535;
     }
     img.logo {
-        left: 70%;
-        
+        margin-left: -425px;
     }
     .bn-menu9 {
-        width: 43%;
+        width: 35%;
         margin-left: 26%;
         top: 180%;
     }
 
 }
-
- 
+}
