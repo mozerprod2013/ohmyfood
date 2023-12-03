@@ -24,6 +24,7 @@
   
   @keyframes animation {
    100% { transform: scaleX(0);}
+
 }
   
 .title {
@@ -418,11 +419,11 @@ button {
  .titremenu1 {
     position: absolute;
     margin-left: 27%;
-    padding-top: 28%;
+    padding-top: 27.5%;
  } 
  .titremenu2 {
     position: absolute;
-    margin-top: 53.1%;
+    margin-top: 52.5%;
     margin-left: 26.2%;
  }
  .titremenu3 {
@@ -438,10 +439,11 @@ button {
     background-color: rgba(153,226,208,1);
  }
  .trait1 {
+    position: absolute;
     margin-left: 41.5%;
     width: 75%;
     margin-top: -20%;
-    height: 3px;
+    height: 0.5%;
     background-color: rgba(153,226,208,1);
  }
  .menuh3 {
@@ -549,35 +551,31 @@ button {
     margin-left: 90%;
     top: 40%;
 }
-.anima:hover {
-	margin-left: 82%;
-    transition-duration: 1s;
-    transition: 1s;
-}
-.p-num::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  .p-num:hover::before {
-    transform: scaleX(1);
-  }
-  .p-num::before {
+.p-num::before {
     content: "";
     display: flex;
     position: absolute;
     background: rgba(153,226,208,1);
     width: 100%;
-    height: 100px;
-    margin-top: 10%;
-    margin-left: 80%;
-    border-radius: 0px 0px 20px 0px;
+    height: 84px;
+    margin-left: 10%;
+    border-radius: 0px 20px 20px 0px;
     z-index: -1;
-    top: -60px;
-    transition: transform .5s ease;
+    top: -56px;
+    transition: transform 0.5s ease;
   }
-button:hover {
-      border-radius: 20px; 
-   } 
+ button:hover {
+      border-radius: 20px;
+}
+.conteneur:hover .element {
+    transform: translateX(-25px);
+    width: 15%;
+    margin-left: 90%;
+    transition: 2s ease;
+}
+.momo {
+    left: -5%;
+}
 
  .bn-menu1 {
     position: absolute;
@@ -660,7 +658,7 @@ button:hover {
     background-color: white;
  }
  .bn-menu9 {
-    position: relative;
+    position: absolute;
     width: 14%;
     margin-top: 82%;
     height: 8%;
@@ -668,13 +666,12 @@ button:hover {
     border: white;
     margin-left: 42%;
     animation: none;
-    z-index: 1000;
     background: linear-gradient(#9356dc,#ff79da)
  }
  .bn-menu10 {
     position: absolute;
     width: 42%;
-    top: 182%;
+    top: 128%;
     height: 12%;
     margin-left: 28.5%;
     border-radius: 20px;
@@ -961,10 +958,6 @@ footer.space {
         width: 90%;
         margin-left: 2%;
     }
-    .bn-menu9 {
-        margin-top: 82%;
-        top: 5%;
-    }
     .menuh3 {
         display: flex;
         margin-left: 1%;
@@ -1005,14 +998,12 @@ footer.space {
         background: #353535;
     }
     img.logo {
-        margin-left: -340px;
+        margin-left: -625%;
     }
     .bn-menu9 {
-        position: relative;
         width: 35%;
-        margin-left: 30%;
-        margin-top: 261%;
-        z-index: 1000;
+        margin-left: 26%;
+        top: 180%;
     }
 
 }
