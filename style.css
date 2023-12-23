@@ -297,7 +297,6 @@ footer {
     margin: 1.5%;
 }
 .fa-regular {
-    left: 100%;
     font-size: 1.6em;
     cursor: pointer;
     font-weight: 100;
@@ -312,31 +311,6 @@ footer {
     margin-left: 67%;
     top: 5.3%;
 }
-.footer2 {
-    position: absolute;
-    font-family: Arial, Helvetica,sans-serif;
-    font-size: 95%;
-    width: 60%;
-    left: 23%;
-    margin-top: 2.3%;
-    color: rgb(255, 255, 255);
-}
-.footer3 {
-    width: 50%;
-    font-size: 90%;
-    margin-left: 36%;
-    margin-top: 2.5%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer4 {
-    position: absolute;
-    left: 70%;
-    padding: 2.5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    color: white;
-}
 .footer5 {
     position: absolute;
     width: 13%;
@@ -345,7 +319,6 @@ footer {
     padding-top: 3%;
 }
 footer.space {
-    position: absolute;
     width: 98%;
     height: 15.5%;
     left: 0%;
@@ -363,20 +336,23 @@ button {
     0%  { padding-top:10%; }
 }
 /* Partie Menu1Desktop*/
-.logo {
-    margin-left: -10%;
+ .logo {
     width: 60%;
+    margin-top: 10%;
+ }
+ .fa-arrow-up.fa-rotate-270 {
+    position: fixed;
+    margin-left: 1%;
+    margin-top: -4%;
  }
  .title {
     padding: 2%;
  }
- .fa-heart.fa-xl {
-    margin-left: -15%;
- }
- .fa-arrow-up.fa-rotate-270 {
-    position: fixed;
-    margin-top: -4%;
-    left: 2%;
+ .heart{
+    position: relative;
+    left: -10%;
+    bottom: -5px;
+    color: red;
  }
  .menu1 {
     width: 100%;
@@ -395,8 +371,9 @@ button {
  }
  .liste-boutons1 {
     margin-top: 1%;
-    width: 70%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 23.4%;
+    
 }
  button {
     display: block;
@@ -405,8 +382,9 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    width: 65%;
-    margin-left: 175px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: red;
  }
  .fontmenu {
     position: relative;
@@ -420,20 +398,16 @@ button {
  .textmenu {
     position: relative;
     margin-left: 35%;
-    top: 1%;
+    margin-bottom: 5%;
     font-size: 180%;
     font-style:italic;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
  .titremenu {
     position: relative;
-    margin-left: -42%;
-    padding-top: 1%;
+    margin-left: -30%;
  }
- .titremenu1{
-    margin-top: 4%;
-    margin-left: -42%;
- }
+ 
  .trait {
     margin-left: 42%;
     margin-top: -10px;
@@ -457,7 +431,7 @@ button:hover {
       border-radius: 15px;
    }
  .bn-menu9 {
-    margin-top: -15%;
+    margin-top: 3%;
     width: 14%;
     height: 50px;
     border-radius: 30px;
@@ -473,36 +447,55 @@ button:hover {
     margin-left: 20%;
     margin-top: -20px;
     font-size: medium;
-
- }
- .foot-menu {
-    position: relative;
-    width: 98%;
-    margin-top: 5%;
-    padding-top: 1%;
-    margin-left: 0%;
-    height: 100px;
-    background-color: #353535;
- }
- .fotter-bloc {
-    display: inline;
-    margin-bottom: 15px;
-    padding: 0 40px;
+}
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    min-height: 10%;
+    margin-top: 4%;
+}
+footer {
+    color: white;
+    padding: 30px;
+    margin-top: -1%;
+    height: 70px;
+    background: #353535;
+}
+footer p {
+    margin: 0;
+}
+.foot1{
+    margin-left: 37%;
+    padding-top: 3%;
     width: 100%;
-    max-width: 1200px;
- }
-
-
+}
+.foot2 {
+    width: 100%;
+    margin-top: -3%;
+    margin-left: 53.5%;
+}
+.foot3 {
+    width: 100%;
+    margin-top: -4.5%;
+    margin-left: 68%;
+}
+.foot4 {
+    margin-left: 61%;
+    margin-top: -6%;
+}
+.footer5 {
+    margin-top: -4%;
+}
 /* Small devices (phones, less than 768px) page Principal */
-@media (max-width: 768px){
+@media  (max-width: 768px){
 .title {
         width: auto;
         margin-left: 26%;
         padding: 2%;
     }
 .icon {
-        width: 103%;
-        margin-left: -1.4%;
+        width: 630px;
+        margin-left: -1%;
         font-family:Arial, Helvetica, sans-serif;
         background-color: #eaeaea;
     }
@@ -514,39 +507,39 @@ button:hover {
         margin-top: -9%;
     }
     .fa-regular.fa-heart.fa-xl {
-        margin-left: -10%;
+        margin-left: 90%;
     }
 .font {
         padding-top: 5%;
-        width: 102.9%;
+        width: 630px;
         margin-left: -1%;
-        height: 340px;
-        background-color: #F6F6F6;
+        height: 310px;
+        background-color:  #F6F6F6;;
     }
 .bn-res {
+    display: flex;
     height: 53px;
-    margin-top: 6%;
-    width: 56%;
-    margin-left: 20%;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 25%;
    }
+.p3 {
+    padding-top: 50px;
+}
 h1 {
-        margin-left: 16%;
+        margin-left: 20%;
         font-size: 30px;
-        width: 70%;
-        padding-top: 10%;
+        width: 50%;
+        margin-top: 1%;
         text-align: center;
     }
 .p2 {
-        width: 80%;   
-        margin-left: 10%;
+        width: 60%;   
+        margin-left: 15%;
         font-size: 120%;
         text-align: center;
     }
-.bn {
-        width: 50%;
-        padding: 0.5%;
-        margin-left: 25%;
-    }
+
 h2{
         margin-left: 1%;
         margin-top: 15%;
@@ -576,48 +569,8 @@ img.logo {
     width: 100px;
     left: 90px;
 }
-.footer1 {
-    position: absolute;
-    font-family: Arial, Helvetica,sans-serif;
-    width: 100%;
-    padding-top: 5%;
-    margin-left: -75%;
-    color: white;
-}
-.footer2 {
-    position: absolute;
-    font-family: Arial, Helvetica,sans-serif;
-    width: 100%;
-    margin-left: -60%;
-    padding-top: 11%;
-    color: rgb(255, 255, 255);
-}
-.footer3 {
-    width: 100%;
-    font-size: 95%;
-    margin-left: -75%;
-    padding-top: 18%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.footer4 {
-    position: absolute;
-    margin-left: -7%;
-    width: 60%;
-    left: -16%;
-    padding-top: 27%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    color: white;
-}
 .space {
     margin-top: 15%;
-}
-footer.space {
-    display: flex;
-    width: 95%;
-    height: 31%;
-    margin-left: 1%;
 }
 .fa-circle-check {
     position: relative;
@@ -635,13 +588,11 @@ footer.space {
         width: 96%;
         margin-left: 1%;
     }
-    .fa-heart.fa-xl {
-        display: flex;
-        margin-left: -70%;
-    
-     }
      .titremenu {
         margin-left: -69%;
+    }
+    .titre-m{
+        width: auto;
     }
     hr.trait {
         display: flex;
@@ -652,17 +603,12 @@ footer.space {
     }
     button {
         width: 70%;
-        margin-left: 176px;
+        margin-left: 140px;
      }
-    .fontmenu {
-        margin-left: 1%;
-        width: 94%;
-        padding: 1%;
-    }
     .liste-boutons li {
         width: 150%;
         margin-top: -19%;
-        margin-left: -31.5%;
+        margin-left: -22%;
         flex-direction: column;
     }
     .liste-boutons1 {
@@ -672,24 +618,62 @@ footer.space {
     }
     .p3 {
         display: flex;
-        margin-left: 40px;
+        margin-top: -30%;
+        margin-left: 35px;
         font-size:medium;
     }
-    .foot-menu {
-        width: 94%;
-        height: 200px;
-        margin-top: 7%;
-        margin-left: 5px;
-        background: #353535;
-    }
+    
     img.logo {
-        margin-left: -437px;
+        display: flex;
+        margin-left: -440px;
     }
     .bn-menu9 {
-        width: 35%;
-        margin-top: -34%;
+        width: 30%;
+        margin-top: 8%;
         margin-left: 30%;
     }
-
 }
+.conteneur {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   margin-top: -55%;
+}
+.contenu-page {
+   flex: 1;
+   padding: 1px;
+}
+footer {
+   color: white;
+   padding: 50px;
+   padding-top: 15%;
+   flex-direction: column;
+   justify-content: space-around;
+   background: #353535;
+}
+footer p {
+   margin: 0;
+}
+.footer5 {
+    margin-top: -35%;
+    left: -28%;
+}
+.foot1{
+   margin-top: -10%;
+   margin-left: -35px;
+}
+.foot2 {
+   margin-top: -2%;
+   margin-left: -6%;
+}
+.foot3 {
+   margin-left: -5%;
+   margin-top: -3%;
+}
+.foot4 {
+    margin-left: -105%;
+    margin-top: 20%;
+}
+    
+    
 }
