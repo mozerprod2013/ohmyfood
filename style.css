@@ -113,9 +113,9 @@ h1 {
     font-family:Arial, Helvetica, sans-serif;
     color: #7f7d7e;
 }
-.p3 {
-    text-align: center;
-    padding-top: 13%;
+.pp3 {
+    margin-left: auto;
+    padding-top: 1%;
     width: 100%;
     color: white;
 }
@@ -276,23 +276,6 @@ img.test1 {
 .space {
     margin-top: 2%;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 1%;
-}
-.footer1 {
-    position: absolute;
-    font-family: Arial, Helvetica,sans-serif;
-    width: 50%;
-    font-size: 95%;
-    padding-top: 0.4%;
-    margin-left: -28%;
-    margin-top: 2%;
-    color: white;
-}
 .fa-utensils {
     margin: 1.5%;
 }
@@ -311,18 +294,45 @@ footer {
     margin-left: 67%;
     top: 5.3%;
 }
+.footer{
+    background-color: #353535;
+    padding-bottom: 1%;
+    margin-top: 3%;
+}
+.contenu-footer {
+    display: flex;
+    margin-top: 3%;
+    padding: -10%;
+    width: 100%;
+}
+.footer span {
+   font-size: large;
+   margin: -0%;
+   margin-left: 5%;
+}
+.span1{
+    position: absolute;
+    left: 35%;
+    width: 200px;
+}
+.span2 {
+    position: absolute;
+    left: 48.4%;
+}
+.span3{
+    position: absolute;
+    left: 63%;
+}
+.span4 {
+    margin-left: 80%;
+}
 .footer5 {
     position: absolute;
-    width: 13%;
-    margin-left: 87%;
+    width: 12%;
+    margin-left: 85%;
     filter:invert();
-    padding-top: 3%;
-}
-footer.space {
-    width: 98%;
-    height: 15.5%;
-    left: 0%;
-    background: #353535;
+    padding-top: 2.5%;
+    color: white;
 }
 button {
     animation: Momo 2s 1;
@@ -445,14 +455,9 @@ button:hover {
  .p3 {
     display: flex;
     margin-left: 20%;
-    margin-top: -20px;
+    margin-top: -1px;
     font-size: medium;
-}
-.conteneur {
-    display: flex;
-    flex-direction: column;
-    min-height: 10%;
-    margin-top: 4%;
+    color: white;
 }
 footer {
     color: white;
@@ -460,9 +465,6 @@ footer {
     margin-top: -1%;
     height: 70px;
     background: #353535;
-}
-footer p {
-    margin: 0;
 }
 .foot1{
     margin-left: 37%;
@@ -490,7 +492,7 @@ footer p {
 @media  (max-width: 768px){
 .title {
         width: auto;
-        margin-left: 26%;
+        margin-left: 30%;
         padding: 2%;
     }
 .icon {
@@ -500,7 +502,7 @@ footer p {
         background-color: #eaeaea;
     }
 .loc {
-    margin-left: 30%;
+    margin-left: -15%;
 }
 .p-num {
         display: flex;
@@ -523,9 +525,12 @@ footer p {
     width: 40%;
     margin-left: 25%;
    }
-.p3 {
-    padding-top: 50px;
-}
+   .pp3 {
+    width: 100%;
+    margin-left: 20%;
+    color:white
+   }
+
 h1 {
         margin-left: 20%;
         font-size: 30px;
@@ -565,9 +570,10 @@ div.cards {
     margin-top: 6%;
 }
 img.logo {
-    position: relative;
-    width: 100px;
-    left: 90px;
+    position: absolute;
+    width: 120px;
+    left: 610px;
+    margin-top: 1170px;
 }
 .space {
     margin-top: 15%;
@@ -577,6 +583,47 @@ img.logo {
     margin-left:50.5%;
     top: -3.4%;
 }
+.footer{
+    background-color: #353535;
+    padding-bottom: 15%;
+    margin-top: 10%;
+    height: 150px;
+}
+.contenu-footer {
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+}
+.footer span {
+   font-size: large;
+   margin: -1%;
+   margin-left: 5%;
+}
+.span1{
+    position: absolute;
+    left: 1%;
+    width: 200px;
+}
+.span2 {
+    position: absolute;
+    left: -4%;
+    padding: 5%;
+}
+.span3{
+    position: absolute;
+    left: -9%;
+    padding: 10%;
+}
+.span4 {
+    padding: 16%;
+    margin-left: -16%;
+}
+img.logo {
+    position: absolute;
+    left: -90px;
+    margin-top: -60%;
+}
+
 /* Partie Mobile-menu1 (page2)*/
 @media (max-width: 768px){
     .textmenu {
@@ -584,6 +631,11 @@ img.logo {
         margin-left: 5%;
         font-style: italic;
     }
+    .fa-arrow-up.fa-rotate-270 {
+        position: fixed;
+        margin-left: 3%;
+        margin-top: -5%;
+     }
     img.menu1 {
         width: 96%;
         margin-left: 1%;
@@ -616,13 +668,6 @@ img.logo {
         width: 59%;
         margin-left: 41%;
     }
-    .p3 {
-        display: flex;
-        margin-top: -30%;
-        margin-left: 35px;
-        font-size:medium;
-    }
-    
     img.logo {
         display: flex;
         margin-left: -440px;
@@ -632,48 +677,10 @@ img.logo {
         margin-top: 8%;
         margin-left: 30%;
     }
-}
-.conteneur {
-   display: flex;
-   flex-direction: column;
-   min-height: 100vh;
-   margin-top: -55%;
-}
-.contenu-page {
-   flex: 1;
-   padding: 1px;
-}
-footer {
-   color: white;
-   padding: 50px;
-   padding-top: 15%;
-   flex-direction: column;
-   justify-content: space-around;
-   background: #353535;
-}
-footer p {
-   margin: 0;
-}
-.footer5 {
-    margin-top: -35%;
-    left: -28%;
-}
-.foot1{
-   margin-top: -10%;
-   margin-left: -35px;
-}
-.foot2 {
-   margin-top: -2%;
-   margin-left: -6%;
-}
-.foot3 {
-   margin-left: -5%;
-   margin-top: -3%;
-}
-.foot4 {
-    margin-left: -105%;
-    margin-top: 20%;
-}
+
+    }
+
+
     
     
 }
