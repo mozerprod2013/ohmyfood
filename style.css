@@ -359,10 +359,9 @@ button {
     padding: 2%;
  }
  .heart{
-    position: relative;
-    left: -10%;
-    bottom: -5px;
-    color: red;
+    position: absolute;
+    left: -4%;
+    margin-top: 4%;
  }
  .menu1 {
     width: 100%;
@@ -609,6 +608,10 @@ img.logo {
         width: 100%;
         margin-left: -32%;
         font-style: italic;
+    }
+    .heart {
+        left: -36%;
+        margin-top: 6%;
     }
     .fond-page {
         overflow: hidden;
