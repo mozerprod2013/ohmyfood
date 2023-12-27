@@ -237,7 +237,7 @@ img.test1 {
     position: relative;
     margin-left: 3.9%;
     top: -4%;
-    font-size:large;
+    font-size: large;
     font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -276,7 +276,7 @@ img.test1 {
     margin-left: 0%;
     width: 50%;
     margin-top: -3%;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
     color: #605c5e;
 }
 
@@ -284,14 +284,14 @@ img.test1 {
     position: relative;
     margin-left: -72.5%;
     margin-top: -3%;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
     color: #605c5e;
 }
 
 .titre3 {
     margin-left: -73%;
     margin-top: -3%;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
     color: #605c5e;
 }
 

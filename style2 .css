@@ -44,6 +44,30 @@ ul {
 
 }
 
+.p-num::before {
+   transform: scaleX(0);
+   transform-origin: bottom right;
+}
+
+.p-num:hover::before {
+   transform: scaleX(1);
+}
+
+.p-num::before {
+   content: "";
+   display: flex;
+   position: absolute;
+   background-color: rgba(153, 226, 208, 1);
+   width: 80px;
+   height: 100px;
+   margin-top: 15%;
+   margin-left: 87%;
+   border-radius: 0px 0px 20px 0px;
+   z-index: -1;
+   top: -85px;
+   transition: transform .6s ease;
+}
+
 button {
    display: block;
    padding: 15px;
