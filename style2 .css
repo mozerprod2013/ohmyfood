@@ -13,18 +13,53 @@
 .title {
    padding: 2%;
 }
-
 .heart {
    position: absolute;
-   left: -4%;
-   margin-top: 4%;
+   left: -2%;
+   margin-top: 1%;
 }
-
 .menu1 {
    width: 100%;
    height: 350px;
    object-fit: cover;
 }
+.num{
+   position: absolute;
+   margin-left: 65%;
+}
+.bouton-m {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 15px 20px;
+}
+.num{
+   position: absolute;
+   top: 50%;
+   transform: translateX(0);
+   transition: transform 0.5s ease;
+}
+.bouton-m:hover .num {
+   transform:  translateX(-30%);
+}
+  .bouton-m:before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 90%;
+   transform: translate(-20%, -50%);
+   width: 0%;
+   height: 100%;
+   background-color: rgba(153, 226, 208, 1);
+   z-index: 0;
+   transition: left 0.3s ease;
+ }
+ 
+ .bouton-m:hover::before {
+   width: 40%;
+   transition: width 0.3s, left 0.3s ease;
+ }
+   
 
 ul {
    list-style: none;
@@ -43,31 +78,12 @@ ul {
    margin-left: 23.4%;
 
 }
-
-.p-num::before {
-   transform: scaleX(0);
-   transform-origin: bottom right;
-}
-
-.p-num:hover::before {
-   transform: scaleX(1);
-}
-
-.p-num::before {
-   content: "";
-   display: flex;
+.fa-circle-check{
    position: absolute;
-   background-color: rgba(153, 226, 208, 1);
-   width: 80px;
-   height: 100px;
-   margin-top: 15%;
-   margin-left: 87%;
-   border-radius: 0px 0px 20px 0px;
-   z-index: -1;
-   top: -85px;
-   transition: transform .6s ease;
+   margin-left: 42%;
+   margin-top: -5%;
+   color: white;
 }
-
 button {
    display: block;
    padding: 15px;
@@ -93,9 +109,9 @@ button {
 
 .textmenu {
    position: relative;
-   left: 35%;
-   top: 4%;
-   margin-bottom: 14%;
+   left: 37%;
+   top: 2%;
+   margin-bottom: 10%;
    font-size: 180%;
    font-style: italic;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -176,8 +192,9 @@ footer {
    }
 
    .heart {
-      left: -36%;
-      margin-top: 6%;
+      position: absolute;
+      left: -35%;
+      margin-top: 2%;
    }
 
    .fond-page {
@@ -221,7 +238,10 @@ footer {
       width: 70%;
       margin-left: 140px;
    }
-
+   .fa-circle-check{
+      margin-left: 43%;
+      margin-top: 8%;
+   }
    .liste-boutons li {
       width: 135%;
       margin-top: -19%;
