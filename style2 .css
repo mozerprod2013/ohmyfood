@@ -153,7 +153,7 @@ button:hover {
    height: 50px;
    border-radius: 30px;
    margin-left: 44%;
-   margin-top: -10%;
+   margin-top: -13%;
    animation: none;
    background: linear-gradient(#9356dc, #ff79da)
 }
@@ -255,13 +255,14 @@ footer {
 
    img.logo {
       display: flex;
-      margin-left: -410px;
+      margin-left: -385px;
       margin-top: -30%;
    }
 
    .bn-menu9 {
+      display: flex;
       width: 30%;
-      margin-top: -15%;
+      margin-top: -19%;
       margin-left: 30%;
    }
 
@@ -270,8 +271,8 @@ footer {
    }
 
    .footer.footer {
-      margin-left: 1%;
-      width: 535px;
+      margin-left: 2.5%;
+      width: 507px;
       top: -20px;
    }
 

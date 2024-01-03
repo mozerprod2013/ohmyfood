@@ -413,8 +413,8 @@ button {
     }
 
     .icon {
-        width: 630px;
-        margin-left: -1%;
+        width: 600px;
+        margin-left: -0.6%;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #eaeaea;
     }
@@ -434,11 +434,11 @@ button {
 
     .font {
         padding-top: 5%;
-        width: 630px;
-        margin-left: -1%;
+        width: 600px;
+        margin-left: -0.7%;
         height: 310px;
         background-color: #F6F6F6;
-        ;
+        
     }
 
     .bn-res {
@@ -521,6 +521,7 @@ button {
         padding-bottom: 15%;
         margin-top: 10%;
         height: 150px;
+        left: -1.5%;
     }
 
     .contenu-footer {
@@ -559,5 +560,6 @@ button {
         left: -90px;
         top: -55%;
     }
+   
 
 }
