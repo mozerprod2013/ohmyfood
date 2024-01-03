@@ -25,7 +25,10 @@
 }
 .num{
    position: absolute;
-   margin-left: 65%;
+   margin-left: 67%;
+   top: 50%;
+   transform: translateX(0);
+   transition: transform 0.5s ease;
 }
 .bouton-m {
   position: relative;
@@ -33,14 +36,9 @@
   border: none;
   padding: 15px 20px;
 }
-.num{
-   position: absolute;
-   top: 50%;
-   transform: translateX(0);
-   transition: transform 0.5s ease;
-}
 .bouton-m:hover .num {
    transform:  translateX(-30%);
+   left: 7%;
 }
   .bouton-m:before {
    content: '';
@@ -56,9 +54,9 @@
  }
  
  .bouton-m:hover::before {
-   width: 40%;
-   transition: width 0.3s, left 0.3s ease;
- }
+   width: 15%;
+   transition: width 0.5s, left 0.5s ease;
+}
    
 
 ul {
