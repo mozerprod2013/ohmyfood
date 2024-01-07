@@ -363,7 +363,7 @@ img.test1 {
 
 .span1 {
     position: absolute;
-    left: 35%;
+    left: 33%;
     width: 200px;
 }
 
@@ -413,8 +413,8 @@ button {
     }
 
     .icon {
-        width: 600px;
-        margin-left: -0.6%;
+        width: 630px;
+        margin-left: -0.8%;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #eaeaea;
     }
@@ -434,8 +434,8 @@ button {
 
     .font {
         padding-top: 5%;
-        width: 600px;
-        margin-left: -0.7%;
+        width: 630px;
+        margin-left: -0.9%;
         height: 310px;
         background-color: #F6F6F6;
         
@@ -446,17 +446,17 @@ button {
         height: 53px;
         margin-top: 5%;
         width: 40%;
-        margin-left: 25%;
+        margin-left: 30%;
     }
 
     .pp3 {
         width: 100%;
         margin-left: 20%;
-        color: white
+        color: white;
     }
 
     h1 {
-        margin-left: 20%;
+        margin-left: 24%;
         font-size: 30px;
         width: 50%;
         margin-top: 1%;
@@ -465,9 +465,10 @@ button {
 
     .p2 {
         width: 60%;
-        margin-left: 15%;
+        margin-left: 20%;
         font-size: 120%;
         text-align: center;
+
     }
 
     h2 {

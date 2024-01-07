@@ -188,7 +188,6 @@ footer {
       margin-left: -32%;
       font-style: italic;
    }
-
    .heart {
       position: absolute;
       left: -35%;
@@ -254,8 +253,7 @@ footer {
    }
 
    img.logo {
-      display: flex;
-      margin-left: -385px;
+      margin-left: -410px;
       margin-top: -30%;
    }
 
@@ -265,14 +263,16 @@ footer {
       margin-top: -19%;
       margin-left: 30%;
    }
-
+   .p3{
+      margin-left: 40px;
+   }
    .span4 {
       margin-left: -15%;
    }
 
    .footer.footer {
       margin-left: 2.5%;
-      width: 507px;
+      width: 535px;
       top: -20px;
    }
 
